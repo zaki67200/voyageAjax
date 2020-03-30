@@ -1,0 +1,131 @@
+
+.favorite:hover
+ {
+
+    color: red;
+    animation: rotate-btn .5s linear 3;
+  -webkit-animation: rotate-btn .5s linear 3;
+
+ }
+
+
+.favorite
+
+{
+
+ background-color:#b2b2ff;
+  border: none;
+  color: white;
+  padding: 15px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  float: right;
+  font-family: 'Patua One', cursive;
+
+
+}
+
+
+.titre
+{
+	display:flex;
+	justify-content: space-between;
+
+}
+
+.titre h1
+{
+  color: white;
+  font-size: 1.7em;
+  text-shadow:0 1px 0 red ,0 -1px 0 red;
+}
+
+.articleBDI1 {
+	width: 300px;
+	height: 200px;
+	background: url(newyork.jpg);
+	background-size: 100% 100%;
+  margin-right: 20px;
+	float: left;
+
+
+
+
+}
+
+.articleBDI2 {
+	width: 300px;
+	height: 200px;
+  margin-right: 20px;
+	background: url(marakech.jpg);
+	background-size: 100% 100%;
+	float: left;
+
+
+}
+
+.articleBDI3 {
+	width: 300px;
+	height: 200px;
+	background: url(reunion.jpg);
+	background-size: 100% 100%;
+	float: left;
+  margin-right: 20px;
+
+
+
+}
+.articleBDI4 {
+	width: 300px;
+	height: 200px;
+	background: url(tchernobly.jpg);
+	background-size: 100% 100%;
+	float: left;
+  margin-right: 20px;
+
+}
+.articleBDI5 {
+	width: 300px;
+	height: 200px;
+	background: url(athenes.jpg);
+	background-size: 100% 100%;
+	float: left;
+  margin-right: 20px;
+
+
+
+}
+
+p{
+  font-size: 1.3em;
+  padding: 10px;
+  width: 95%;
+  margin: 10px auto;
+  text-align: justify;
+
+}
+
+
+
+.container1 ,.container2,.container2,.container3,.container4,.container5{
+
+ border: 2px solid black;
+ background-color: #4d4dff;
+  margin-top: 50px;
+	width:100%;
+	height: 340px;
+	padding: 30px 120px 30px 30px;
+ box-shadow: 5px 5px 5px black;
+
+	box-sizing: border-box;
+
+
+	}
+
+  body
+  {
+    background-color: #C0C0C0;
+      font-family: 'Baloo Thambi 2', cursive;
+  }
